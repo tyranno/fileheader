@@ -54,3 +54,13 @@ code .
 5. 설치가 완료되면, Visual Studio Code를 재시작할 수도 있습니다.
    
 이로써 시스템에 확장 기능이 로컬로 설치되며, 사용할 준비가 됩니다.
+
+## 설정 적용
+.vscode/settings.json
+```
+{
+    "fileHeader.authorName": "Your Name",
+    "fileHeader.authorEmail": "Your Email",
+    "fileHeader.description": "Brief description here"
+}
+```

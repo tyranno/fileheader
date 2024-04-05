@@ -25,7 +25,27 @@
         "when": "editorTextFocus",
         "mac": "cmd+alt+h"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "File Header",
+      "properties": {
+        "fileHeader.authorName": {
+          "type": "string",
+          "default": "Your Name",
+          "description": "Author name for the file header."
+        },
+        "fileHeader.authorEmail": {
+          "type": "string",
+          "default": "Your Email",
+          "description": "Author email for the file header."
+        },
+        "fileHeader.description": {
+          "type": "string",
+          "default": "Brief description here",
+          "description": "Description to be included in the file header."
+        }
+      }
+    }
   },
   "scripts": {
     "lint": "eslint .",
