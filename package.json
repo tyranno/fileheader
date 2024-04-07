@@ -65,6 +65,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@192.168.123.37:10022/yikim/vscode-fileheader.git"
+    "url": "git@github.com:tyranno/fileheader.git"
   }
 }
